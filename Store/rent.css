@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 15px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-out;
+}
+
+nav:hover{
+    background-color: rgba(0, 0, 0, 0.755);
+    transition: 0.5s ease-in;
+}
+
+nav .wrapper{
+    position: relative;
+    max-width: 100%;
+    padding: 0 30px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapper .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.wrapper .nav-links{
+    display: inline-flex;
+}
+
+.nav-links li{
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+    transition: color 0.5s;
+}
+
+.nav-links li a:hover{
+    color: #a21a1a;
+}
+
+Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/signinBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #a21a1a;
+    background-color: rgba(0, 0, 0, 0.795);
+    width: fit-content;
+    height: fit-content;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/rs7.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.587);
+}
+
+.info1 h1{
+    font-size: 25px;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+
+.info1 p{
+    position: relative;
+    top: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 300;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    color: #eeee;
+    padding: 10px;
+}
+
+.info1 h2{
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 20px;
+    border-radius: 10px;
+    color: #eeee;
+    position: relative;
+    top: 80px;
+}
+
+/* -------item 2-------- */
+
+.item2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/lambobackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item2C{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: rgba(161, 15, 223, 0.587);
+}
+
+.item2C h1{
+    font-size: 25px;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+
+.item2C p{
+    position: relative;
+    top: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 300;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    color: #eeee;
+    padding: 10px;
+}
+
+.item2C h2{
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 20px;
+    border-radius: 10px;
+    color: #eeee;
+    position: relative;
+    top: 80px;
+}
+
+
+/* -------item 3-------- */
+
+.item3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/mclaren.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item3C{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: rgba(21, 153, 197, 0.587);
+}
+
+.item3C h1{
+    font-size: 25px;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+
+.item3C p{
+    position: relative;
+    top: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 300;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    color: #eeee;
+    padding: 10px;
+}
+
+.item3C h2{
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 20px;
+    border-radius: 10px;
+    color: #eeee;
+    position: relative;
+    top: 80px;
+}
+
+
+/* ------Footer------ */
+
+.footer {
+    background-color: #232323e7;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .col1,
+.footer-content .col2,
+.footer-content .col3 {
+    width: 30%;
+}
+
+.footer-content h2 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.footer-content p {
+    font-size: 17px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social-media div {
+    background-color: white;
+    padding: 10px 12px;
+    margin: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.social-media div:hover {
+    background-color: #a4c639;
+}
+
+.footer .col2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .col2 li {
+    list-style: none;
+}
+
+.footer .col2 li a {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.footer .col2 li a:hover {
+    color: #a21a1a;
+    border-bottom: 2px solid #a21a1a;
+}
+
+.footer .contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    outline: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #181818;
+    border-color: #a21a1a;
+    color: white;
+}
+
+
+
+.main-footer {
+    background-color: #343434;
+    padding: 10px;
+}
+
+.main-footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-footer p {
+    color: white;
+    font-size: 20px;
+}
+
+.main-footer-content div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.p-y-10px {
+    padding: 10px 0;
+}
+
+.p-y-80px {
+    padding: 80px 0;
+}
